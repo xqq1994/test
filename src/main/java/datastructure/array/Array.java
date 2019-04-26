@@ -11,7 +11,7 @@ public class Array {
     public Array(int capacity) {
         n = capacity;
         array = new int[n];
-        count = 0;
+        count = 1;
     }
 
     public int find(int index) {
